@@ -1,0 +1,9 @@
+Namespace
+We can not create multiple classes with the same name
+But in different namespaces we can create the classes of same name
+
+Global Calling:
+using System
+
+Inline Calling:
+System.Console.WriteLine("Hellow World");
