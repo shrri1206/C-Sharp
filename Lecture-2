@@ -167,8 +167,17 @@ class Program
 }
 
 #######################
-create variable
+create variable & Rules
 #######################
+
+variables are containers for storing the values
+int, double, char, string, bool
+Rules:
+Contains letters, digits, and underscore
+begins with letter
+starts with lowercase, it cn not contain whitespace
+case sensitive
+reserve words can not be uses as varibale name
 
 namespace VariableCreation
 {
