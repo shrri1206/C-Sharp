@@ -7,3 +7,44 @@ using System
 
 Inline Calling:
 System.Console.WriteLine("Hellow World");
+
+Program:
+###########################
+Create two Namespace
+###########################
+
+using System;
+namespace Namespace1
+{
+    class Hello
+    {
+        public void sayHello()
+        {
+            System.Console.WriteLine("Hello World!");
+        }
+    }
+}
+
+namespace Namespace2
+{
+    static class Hi
+    {
+        public static void sayHi()
+        {
+            Console.WriteLine("Hi World!");
+        }
+    }
+}
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        Namespace1.Hello hello = new Namespace1.Hello();
+        hello.sayHello();
+        Namespace2.Hi.sayHi();
+    }
+}
+
+
+
