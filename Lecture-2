@@ -46,5 +46,46 @@ class Program
     }
 }
 
+#######################
+Directly use of namespace if we define on the top if the code:
+#######################
+using System;
+using Namespace1;
+using Namespace2;
+
+namespace Namespace1
+{
+    class Hello
+    {
+        public void sayHello()
+        {
+            System.Console.WriteLine("Hello World!");
+        }
+    }
+}
+
+namespace Namespace2
+{
+    static class Hi
+    {
+        public static void sayHi()
+        {
+            Console.WriteLine("Hi World!");
+        }
+    }
+}
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        Hello hello = new Hello();
+        hello.sayHello();
+        Hi.sayHi();
+    }
+}
+
+
+
 
 
