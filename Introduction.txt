@@ -1,0 +1,31 @@
+Modren, object Oriented programming Language
+Allows developers to build cross platform applications for Windows, web and mobile
+Simple to use, easy to learn
+Developed by Microsoft, 2002
+
+C# Environment setup
+Download the Visual Studio 2022 Edition it will setup all things automatically
+
+NameSpace:
+It is used to organise our code
+Container for classes and other application
+Eaxample:
+using System;
+System.Console.WriteLine("Hellow World"); // it will crate a full line
+System.Console.Write("Hellow world"); //it will not give break after the line
+
+what is the meaning of:
+public static void Main(String[] args){
+  System.Console.WriteLine("Hellow World");
+}
+
+Static: no need to create the instance.
+Main: Automatically run by static
+Void: Nothing to return
+Console.Write("Hello world")
+static class: Console
+method: Write
+
+C# Comments:
+Single line: //
+multiple Lines: /* */
