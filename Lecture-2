@@ -126,4 +126,42 @@ class Program
 }
 
 
+//nested namespaces
 
+using System;
+using Namespace1;
+using Namespace1.Namespace2;
+
+namespace Namespace1
+{
+    class Hello
+    {
+        public void sayHello()
+        {
+            System.Console.WriteLine("Hello World!");
+        }
+    }
+
+    namespace Namespace2
+    {
+        class Hi
+        {
+            public void sayHi()
+            {
+                Console.WriteLine("Hi World!");
+            }
+        }
+    }
+}
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        Hello h1 = new Hello();
+        Hi h2 = new Hi();
+
+        h1.sayHello();
+        h2.sayHi();
+    }
+}
