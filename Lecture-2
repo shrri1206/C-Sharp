@@ -190,3 +190,39 @@ namespace VariableCreation
         }
     }
 }
+
+
+############################
+multiple variable name in a single line of same datatype
+default
+constant declaration
+############################
+namespace VariableCreation
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            //string name;
+            //name = "Vaibhav Chaudhary";
+            //Console.Write(name);
+
+            //int age = 24;
+            //Console.Write(age);
+
+            //int age = default;
+            //Console.Write(age);
+
+            //string fname, lname;
+            //fname = "vaibhav";
+            //lname = "chaudhary";
+
+            //Console.WriteLine(fname);
+            //Console.WriteLine(lname);
+
+            //constans declaration
+            //const int age = 25;
+            //Console.Write(age);
+        }
+    }
+}
