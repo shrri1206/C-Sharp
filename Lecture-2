@@ -237,3 +237,21 @@ Rules are same as variable creations
 string name = "Vaibhav";
 here name is a identifire
 
+
+############################
+Typed Variables
+############################
+
+Explicitly Typed Variable:
+    Varaibles must be declared with data type
+    int num1 = 10;
+Implicitly Typed Variable:
+    Compiler will infer the type of variable from the right side of the code
+    var name = "vaibhav";
+    here var act as string
+
+    Implicitly Typed variable must be initialized at the time of declaration
+    multiple declarations are not allowed
+    can not be used for function parameter
+    can be use in for loop
+    can be used in linkQ queries
