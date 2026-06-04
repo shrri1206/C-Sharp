@@ -226,3 +226,14 @@ namespace VariableCreation
         }
     }
 }
+
+##########################
+Identifires
+###########################
+C# variables must be identified with unique values
+It is recommended to use descriptive name
+Rules are same as variable creations
+
+string name = "Vaibhav";
+here name is a identifire
+
