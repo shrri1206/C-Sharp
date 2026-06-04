@@ -85,7 +85,45 @@ class Program
     }
 }
 
+#######################
+Ambiguty issue resolve
+#######################
 
+using System;
+
+namespace Namespace1
+{
+    class Hello
+    {
+        public void sayHello()
+        {
+            System.Console.WriteLine("Hello World!");
+        }
+    }
+}
+
+namespace Namespace2
+{
+    class Hello
+    {
+        public void sayHello()
+        {
+            Console.WriteLine("Hi World!");
+        }
+    }
+}
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        Namespace1.Hello h1 = new Namespace1.Hello();
+        Namespace2.Hello h2 = new Namespace2.Hello();
+
+        h1.sayHello();
+        h2.sayHello();
+    }
+}
 
 
 
