@@ -165,3 +165,19 @@ class Program
         h2.sayHi();
     }
 }
+
+#######################
+create variable
+#######################
+
+namespace VariableCreation
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            string name = "Vaibhav Chaudhary";
+            Console.Write(name);
+        }
+    }
+}
